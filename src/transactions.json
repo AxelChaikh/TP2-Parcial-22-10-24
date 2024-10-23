@@ -1,0 +1,6 @@
+[
+  {"id": 1, "tipo": "retiro", "monto": 12000, "destinatario": "Axel Chaikh"},
+  {"id": 2, "tipo": "deposito", "monto": 2000, "destinatario": "Gaston Laguna"},
+  {"id": 3, "tipo": "depostio", "monto": 35000, "destinatario": "Ezequiel Vena"},
+  {"id": 4, "tipo": "retiro", "monto": 5000, "destinatario": "Manuela Gonzalez"}
+]

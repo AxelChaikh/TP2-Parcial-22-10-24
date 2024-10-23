@@ -1,8 +1,8 @@
-import CtaBancariaMemModel from '../models/CtaBancaria.model.mem.js';
+import Factory from "../models/Factory.js";
 
 class CtaBancariaService {
     constructor() {
-        this.model = new CtaBancariaMemModel();
+        this.model = Factory.get("MEM")
     }
 
     getAllTransactions = async () => {
