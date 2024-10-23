@@ -75,7 +75,7 @@ El mismo corre en http://localhost:8080
 
 ### Eliminar una transaccion
 - **Método:** `DELETE`
-- **Ruta:** `http://localhost:8080/transactions/delete/L:id`
+- **Ruta:** `http://localhost:8080/transactions/delete/:id`
 - **Descripción:** Elimina una transacción en función del id proporcionado.
 - **Respuesta:**
   La transaccion ha sido eliminada.
